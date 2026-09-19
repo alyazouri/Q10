@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://cloudflare-dns.com/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>1.1.1.1</string>
+                    <string>1.0.0.1</string>
+                    <string>2606:4700:4700::1111</string>
+                    <string>2606:4700:4700::1001</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
+            </array>
+            <key>PayloadDescription</key>
+            <string>يستخدم DNS مشفّرًا عبر HTTPS من Cloudflare (1.1.1.1) تلقائيًا على شبكات Wi‑Fi والبيانات الخلوية. يبقى ملف التعريف قابلاً للإزالة من الإعدادات.</string>
+            <key>PayloadDisplayName</key>
+            <string>SERVER ALYAZOURI JOR — DNS المشفّر</string>
+            <key>PayloadIdentifier</key>
+            <string>com.alyazouri.server-dns.doh</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>F25D5E9D-EC6E-4099-9B8C-D6A1E051A69A</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>يضبط iPhone وiPad وMac لاستخدام DNS مشفّر عبر HTTPS من Cloudflare. يمكن إزالة ملف التعريف في أي وقت من الإعدادات.</string>
+    <key>PayloadDisplayName</key>
+    <string>SERVER ALYAZOURI JOR — DNS over HTTPS</string>
+    <key>PayloadIdentifier</key>
+    <string>com.alyazouri.server-dns</string>
+    <key>PayloadOrganization</key>
+    <string>SERVER ALYAZOURI JOR</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>61533EFC-34A0-46D7-9194-05171EA19F89</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

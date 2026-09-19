@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>ProxyType</key>
+            <string>Manual</string>
+            <key>ProxyServer</key>
+            <string>94.142.36.145</string>
+            <key>ProxyServerPort</key>
+            <integer>1080</integer>
+            <key>ProxyCaptiveLoginAllowed</key>
+            <true/>
+            <key>PayloadDescription</key>
+            <string>يضبط Global HTTP Proxy تلقائيًا على 94.142.36.145:1080 بدون مصادقة. يتطلب جهاز Apple خاضعًا للإشراف.</string>
+            <key>PayloadDisplayName</key>
+            <string>تشغيل سيرفر أردني 2</string>
+            <key>PayloadIdentifier</key>
+            <string>com.alyazouri.server-proxy.global</string>
+            <key>PayloadType</key>
+            <string>com.apple.proxy.http.global</string>
+            <key>PayloadUUID</key>
+            <string>9A94BE32-A12B-4D01-9586-83009B5A7C34</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>يثبت إعداد Global HTTP Proxy للسيرفر الأردني 2 على الأجهزة الخاضعة للإشراف. الخادم 94.142.36.145 والمنفذ 1080 والمصادقة متوقفة.</string>
+    <key>PayloadDisplayName</key>
+    <string>SERVER ALYAZOURI — سيرفر أردني 2</string>
+    <key>PayloadIdentifier</key>
+    <string>com.alyazouri.server-proxy</string>
+    <key>PayloadOrganization</key>
+    <string>SERVER ALYAZOURI JOR</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>4F2C8B61-5526-42C5-B7DF-C50B925DF4BC</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
